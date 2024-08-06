@@ -1,0 +1,16 @@
+{
+    "name": "skills",
+    "fields": [
+      {"name": "id", "type": "int32"},
+      {"name": "context", "type": "string"},
+      {"name": "function", "type": "string"},
+      {"name": "subFunction", "type": "string"},
+      {"name": "name", "type": "string"},
+      {"name": "skillElement", "type": "string"},
+      {"name": "skillDescription", "type": "string"},
+      {"name": "skillSynonym", "type": "string"},
+      {"name": "status", "type": "string"}
+    ],
+    "default_sorting_field": "id"
+}
+  

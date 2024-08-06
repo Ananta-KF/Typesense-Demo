@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: typesense-config
+  namespace: test-ananta
+data:
+  config.json: |
+    {
+      "api_key": "gBM9ysAtcvsxbLggp/YcGP1WDNYeSKWULn8+qWy1IT0=",
+      "data_dir": "/data"
+      }
